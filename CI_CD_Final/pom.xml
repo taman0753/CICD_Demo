@@ -3,4 +3,11 @@
   <groupId>MyProject</groupId>
   <artifactId>CI_CD_Final</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <distributionManagement>
+  	<snapshotRepository>
+    	<id>Assignment2</id>
+    	<name>Assignment2</name>
+    	<url>http://localhost:8081/repository/Assignment2/</url>
+  	</snapshotRepository>
+  </distributionManagement>
 </project>
