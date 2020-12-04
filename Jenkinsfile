@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-      stage('Deploy'){
+      stage('Build'){
           steps{
-          bat 'mvn deploy'
+          bat 'mvn package'
           }
       }
     }
